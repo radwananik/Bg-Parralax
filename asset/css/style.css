@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.home-bg-parralax{
+    background-color: #222;
+    background: url(../image/bg-parallax2.jpg) 100% fixed;
+    height: 100vh;
+    background-size: cover;
+    
+}
+.navbar-default{
+    border-bottom: 1px solid #ddd;
+}
+.home-bg-parralax::before{
+    background: rgba(0, 0, 0, 0.8) !important;
+    content: '';
+    display: block;
+    height: 100vh;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.bg-content{
+    transform: translateY(50%);
+}
+.home-bg-parralax span{
+    color: #fff;
+}
+.bg-content h1{
+    font-size: 5.375rem;
+    list-style: 1px;
+    color: #fff;
+}
+
+.bottom-color-line{
+    height: 9px;
+    background-color: firebrick;
+    width: 80px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+
+
+
